@@ -1,0 +1,341 @@
+body{
+  font-family: "Netflix Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffff;
+  font-style: normal;
+  width: 100vw;
+  height: 100vh;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    flex-direction: column;
+  background-color: rgb(39, 39, 39);
+  overflow: auto;  
+}
+
+.logo{
+    height: 60px;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+
+.marca{
+    text-decoration: none;
+    display: flex;
+    align-items: end;
+    position: relative;
+    top: -100px;
+    left: 310px;
+    transition: 1.5s;
+}
+
+.logo h1{
+    color: rgb(202, 0, 0);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    text-decoration: none;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    left: 205px;
+    top: -40px;
+    transition: 0.5s;
+
+}
+
+.logo img:hover{
+    scale: 1.1;
+}
+
+
+img{
+    width: 280px;
+    height: 400px;
+    padding: 4px;
+
+}
+
+.history{
+    font-size: 2rem;   
+}
+
+.card{
+    display: inline-block;
+    filter: brightness(80%);
+    transition: 0.5s ease;
+}
+
+
+.card:hover{
+    cursor: pointer;
+    filter: brightness(100%);
+    scale: 1.1;
+    filter: drop-shadow(0 0 0.75rem rgb(100, 100, 100));
+}
+
+.card button{
+    background-color: red;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+    height: 30px;
+    border: none;
+    align-items: center;
+}
+
+
+
+
+.menu nav ul{  
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.menu nav ul li a{ 
+ padding: 20px 20px;
+ display: block;
+ text-decoration: none;
+ font-size: 20px;
+}
+
+.submenu{
+    position: relative;
+}
+
+.submenu .drop{
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    transition: 0.5s ease ;
+    
+}
+
+.submenu .drop a{
+    padding: 15px;
+    border-bottom: red 1px solid;
+    font-size: 17px;
+}
+
+.submenu:hover .drop{
+    height: 250px;
+}
+
+a{
+    color: white;
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: black;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.menu{
+    position: relative;
+    top: -91px;
+    left: 250px;
+}
+
+.links a:hover{
+    color: red;
+    filter: drop-shadow(0 0 0.75rem rgb(255, 0, 0));
+}
+
+.links a{
+    transition: 0.5s ease;
+}
+
+.footer a{
+    color: red;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+   filter: drop-shadow(0 0 0.75rem rgb(255, 0, 51));
+}
+
+.marca:hover{
+     filter: drop-shadow(0 0 0.75rem rgb(214, 0, 43));
+}
+
+footer a{
+    color: red;
+}
+
+label{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    position: relative;
+    bottom: -15px;
+    width: 55%;
+    height: 35px;
+    left: 195px;
+    background-color: rgb(100, 100, 100);
+}
+
+#procurar{
+    background-color: red;
+    border: none;
+    position: absolute;
+    right: 630px;
+    top: 262px;
+    width: 55px;
+    height: 25px;
+    border-radius: 30px;    
+}
+
+#procurar:hover{
+    cursor: pointer;
+}
+
+::placeholder{
+    color: white;
+}
+
+.history{
+    padding-top: 20px;
+}
+
+.subanimes{
+    display: flex;
+}
+
+.minicards img{
+    width: 180px;
+    height: 300px;
+    filter: brightness(80%);
+
+
+}
+
+.minicards{
+    transition: 0.5s ease;
+}
+
+.minicards:hover{
+    scale: 1.1;
+    filter: drop-shadow(0 0 0.75rem rgb(100, 100, 100));
+    
+}
+
+.minicards img:hover{
+    filter: brightness(100%);
+}
+
+
+
+@media (max-width: 480px) {
+.logo img{
+    height: 0px;
+    width: 0px;
+}
+
+.logo h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.scale{
+    width: 100%;
+    height: 100%;
+}
+
+.animes{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    filter: brightness(100%);
+    position: relative;
+
+}
+
+.animeflix{
+    height: 50px;
+    width: 50px;
+   position: relative;
+   left: -285px;
+   top: 33px;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: -700px;
+}
+
+.animes{
+    display: flex;
+    align-items: center;
+}
+
+.card img{
+    width: 185px;
+    height: 200px;
+}
+
+.card button{
+    display: none;
+}
+
+
+.scale h1{
+    padding-top: 90px;
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+}
+
+.history{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="search"]{
+    display: none;
+}
+.minianimes h1{
+    font-size: 25px;
+}
+
+.subanimes{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+}
+
+.footer{
+  position: absolute;
+  bottom: -1030px;  
+}
