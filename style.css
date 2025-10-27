@@ -19,7 +19,7 @@ body{
     height: 60px;
     position: absolute;
     top: 60px;
-    left: 100px;
+    left: -100px;
 }
 
 .marca{
@@ -65,13 +65,18 @@ img{
 }
 
 .history{
-    font-size: 2rem;   
+    font-size: 2rem;
 }
 
 .card{
     display: inline-block;
     filter: brightness(80%);
     transition: 0.5s ease;
+
+}
+
+.txtanimes{
+    padding-top: 460px;
 }
 
 
@@ -96,7 +101,12 @@ img{
     align-items: center;
 }
 
-
+input[type="search"]{
+    position: relative;
+    top: 250px;
+    left: 980px;
+    width: 350px;
+}
 
 
 .menu nav ul{  
@@ -154,7 +164,7 @@ a{
 
 .menu{
     position: relative;
-    top: -91px;
+    top: 375px;
     left: 250px;
 }
 
@@ -204,9 +214,9 @@ input{
     background-color: red;
     border: none;
     position: absolute;
-    right: 630px;
-    top: 262px;
-    width: 55px;
+    right: 50px;
+    top: 34px;
+    width: 45px;
     height: 25px;
     border-radius: 30px;    
 }
@@ -307,6 +317,15 @@ input{
     display: none;
 }
 
+.menu{
+    position: relative;
+    left: 50px;
+}
+
+.font{
+    font-size: 10px;
+}
+
 
 .scale h1{
     padding-top: 90px;
@@ -326,6 +345,10 @@ input[type="search"]{
 }
 .minianimes h1{
     font-size: 25px;
+}
+
+#procurar{
+    display: none;
 }
 
 .subanimes{
