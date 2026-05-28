@@ -1,0 +1,14 @@
+# vídeos
+*.mp4
+*.mov
+*.avi
+
+# cache do git
+.git
+
+# node
+node_modules/
+
+# sistema
+.DS_Store
+Thumbs.db

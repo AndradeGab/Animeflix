@@ -1,0 +1,19 @@
+# Animeflix
+Projeto de site de streaming, especificado para animes, o site o leva para a Neflix diretamente.
+
+[Versão Demo do Site](https://andradegab.github.io/Animeflix/)
+
+### Como utilizar:
+- Clone o projeto. `git clone link`
+- Abra em seu editor.
+- E então abra no navegador.
+
+### Tecnologias usadas:
+- VSCode
+- HTML
+- CSS
+
+### Futuros Updates:
+- [ ] Melhora na estrutura.
+- [ ] Beleza visual.
+- [ ] Adicionar mais animes.
