@@ -10,7 +10,6 @@
 
 body {
     font-family: "Netflix Sans", sans-serif;
-    background-color: rgb(39, 39, 39);
     color: white;
 
     min-height: 100vh;
@@ -18,7 +17,166 @@ body {
 
     display: flex;
     flex-direction: column;
+    background: linear-gradient(
+    135deg,
+    rgb(5, 5, 5),
+    rgb(8, 8, 11),
+    rgb(18, 0, 0),
+    rgb(10, 10, 10)
+);
 }
+
+/* HERO SECTION */
+.hero {
+    position: relative;
+
+    width: 100%;
+    height: 100vh;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-video {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    z-index: 1;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+
+    z-index: 2;
+
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.95),
+        rgba(0, 0, 0, 0.4)
+    );
+}
+
+.hero header {
+    position: relative;
+    z-index: 10;
+
+    background: transparent;
+
+    backdrop-filter: blur(10px);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 10;
+
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0 80px;
+
+    max-width: 700px;
+
+    animation: heroEntrada 1.2s ease;
+}
+
+.hero-content h2 {
+    font-size: 90px;
+
+    font-family: "Bebas Neue", sans-serif;
+
+    line-height: 0.95;
+
+    margin-bottom: 25px;
+
+    text-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
+.hero-content p {
+    font-size: 22px;
+
+    line-height: 1.7;
+
+    color: rgb(220, 220, 220);
+
+    margin-bottom: 35px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-buttons button {
+    width: 190px;
+    height: 60px;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.4s ease;
+}
+
+.assistir {
+    background: red;
+    color: white;
+}
+
+.assistir:hover {
+    transform: scale(1.08);
+
+    background: rgb(255, 45, 45);
+
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.7);
+}
+
+.info {
+    background: rgba(255,255,255,0.15);
+
+    backdrop-filter: blur(10px);
+
+    color: white;
+}
+
+.info:hover {
+    transform: scale(1.08);
+
+    background: rgba(255,255,255,0.25);
+}
+
+@keyframes heroEntrada {
+
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+        filter: blur(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+    }
+
+}
+
 
 .site {
     animation: entradaSite 1.4s cubic-bezier(0.22, 1, 0.36, 1);
@@ -560,34 +718,168 @@ input {
     filter: drop-shadow(0 0 0.75rem rgb(255, 0, 0));
 }
 
-/* FOOTER */
-
 .footer {
     width: 100%;
 
-    margin-top: 50px;
-    padding: 20px;
+    margin-top: 100px;
 
-    background-color: black;
+    background:
+        linear-gradient(
+            to top,
+            rgb(0, 0, 0),
+            rgb(15, 15, 15)
+        );
+
+    border-top: 1px solid rgba(255, 0, 0, 0.2);
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.footer::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 2px;
+
+    background: linear-gradient(
+        to right,
+        transparent,
+        red,
+        transparent
+    );
+
+    animation: brilhoFooter 4s linear infinite;
+}
+
+.footer-container {
+    width: min(90%, 1400px);
+
+    margin: auto;
+
+    padding: 70px 20px;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 50px;
+}
+
+.footer-brand {
+    max-width: 350px;
+}
+
+.footer-logo {
+    display: flex;
     align-items: center;
+
+    gap: 2px;
+
+    margin-bottom: 20px;
+}
+
+.logo-main {
+    font-size: 55px;
+
+    color: red;
+
+    font-family: "Bebas Neue", sans-serif;
+
+    letter-spacing: 2px;
+}
+
+.logo-accent {
+    font-size: 55px;
+
+    color: red;
+
+    font-family: "Bebas Neue", sans-serif;
+
+    letter-spacing: 2px;
+}
+
+
+
+.footer-brand p {
+    line-height: 1.8;
+
+    color: rgb(180, 180, 180);
+
+    font-size: 17px;
+    opacity: 0.8;
+    
+}
+
+.footer-links,
+.footer-social {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.footer-links h2,
+.footer-social h2 {
+    font-size: 24px;
+
+    margin-bottom: 10px;
+
+    color: white;
+}
+
+.footer-links a,
+.footer-social a {
+    color: rgb(180, 180, 180);
+
+    text-decoration: none;
+
+    transition: 0.4s ease;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+    color: red;
+
+    transform: translateX(5px);
+
+    filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.7));
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.08);
+
+    padding: 25px;
 
     text-align: center;
 
-    font-size: 18px;
-    font-family: "Poppins", sans-serif;
+    color: rgb(140, 140, 140);
+
+    font-size: 15px;
 }
 
-.footer a {
-    color: rgb(138, 0, 0);
-    text-decoration: none;
-    font-weight: bold;
-}
+@keyframes brilhoFooter {
 
-.footer a:hover {
-    text-decoration: underline;
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
 
 }
 
@@ -937,4 +1229,41 @@ input {
 
         font-size: 15px;
     }
+
+    .hero-content {
+    padding: 0 25px;
+    text-align: center;
+    align-items: center;
+}
+
+.hero-content h2 {
+    font-size: 55px;
+}
+
+.hero-content p {
+    font-size: 17px;
+}
+
+.hero-buttons {
+    flex-direction: column;
+    width: 100%;
+}
+
+.hero-buttons button {
+    width: 100%;
+}
+.footer-container {
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.footer-brand {
+    max-width: 100%;
+}
+
+.footer-brand h1 {
+    font-size: 50px;
+}
 }
