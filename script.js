@@ -16,6 +16,9 @@ const modalDescricao = document.getElementById("modalDescricao");
 // =========================
 
 document.addEventListener("DOMContentLoaded", () => {
+
+    document.body.classList.add("sem-scroll");
+
     iniciarTelaEntrada();
     criarCards();
     iniciarModal();
@@ -252,12 +255,16 @@ function iniciarTelaEntrada() {
 
     if (localStorage.getItem("jaEntrou") === "true") {
         entrada.style.display = "none";
+
+        document.body.classList.remove("sem-scroll");
     }
 
     entrar.addEventListener("click", () => {
         localStorage.setItem("jaEntrou", "true");
 
         entrada.classList.add("sumir");
+
+        document.body.classList.remove("sem-scroll");
 
         setTimeout(() => {
             entrada.style.display = "none";

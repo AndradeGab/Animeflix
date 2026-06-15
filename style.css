@@ -376,7 +376,7 @@ header {
     gap: 30px;
     padding: 20px 60px;
     position: relative;
-    z-index: 100;
+    z-index: 1000;
 }
 
 /* LOGO */
@@ -1004,7 +1004,11 @@ header {
         display: block;
         font-size: 40px;
         cursor: pointer;
-        z-index: 999;
+        z-index: 999999;
+    }
+
+    body.sem-scroll {
+        overflow: hidden;
     }
 
 
@@ -1058,7 +1062,7 @@ header {
 
         transition: .3s ease;
 
-        z-index: 999;
+        z-index: 999999;
     }
 
     .menu.ativo {
