@@ -87,19 +87,19 @@ function criarCards() {
     };
 
     // Categorias normais
-  for (const nome in animes) {
+    for (const nome in animes) {
 
-    const anime = animes[nome];
+        const anime = animes[nome];
 
-    const destino = carrosseis[anime.categoria];
+        const destino = carrosseis[anime.categoria];
 
-    if (destino) {
-        destino.appendChild(
-            criarCard(nome, anime)
-        );
+        if (destino) {
+            destino.appendChild(
+                criarCard(nome, anime)
+            );
+        }
+
     }
-
-}
 
     // TOP 10 ANIMES AUTOMÁTICO
     const top10 = Object.entries(animes)
@@ -120,15 +120,15 @@ function criarCards() {
 
     if (carrosselTop) {
 
-    top10.forEach(([nome, anime]) => {
+        top10.forEach(([nome, anime]) => {
 
-        carrosselTop.appendChild(
-            criarCard(nome, anime)
-        );
+            carrosselTop.appendChild(
+                criarCard(nome, anime)
+            );
 
-    });
+        });
 
-}
+    }
 
 }
 
@@ -150,7 +150,7 @@ function abrirModal(nome, anime) {
 
     modalDescricao.textContent = anime.descricao;
 
-modalMidia.innerHTML = `
+    modalMidia.innerHTML = `
 <iframe
     width="100%"
     height="100%"

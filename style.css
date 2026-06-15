@@ -46,7 +46,6 @@ body {
 .hero-video {
 
     position: absolute;
-    inset: 0;
 
     width: 100%;
     height: 120%;
@@ -108,41 +107,49 @@ body {
 }
 
 .hero-buttons {
-
     display: flex;
     gap: 15px;
-
+    margin-top: 30px;
 }
 
-.assistir,
-.info {
-
-    border: none;
-    cursor: pointer;
+.hero-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 
     padding: 14px 28px;
 
-    border-radius: 6px;
+    border-radius: 8px;
 
-    font-size: 1rem;
+    text-decoration: none;
+
     font-weight: 600;
+    font-size: 1rem;
 
+    transition: .3s ease;
 }
 
-.assistir {
-
+.hero-play {
     background: #e50914;
     color: white;
-
 }
 
-.info {
+.hero-play:hover {
+    background: #ff1f2d;
+    transform: translateY(-2px);
+}
 
-    background: rgba(255, 255, 255, .2);
+.hero-info {
+    background: rgba(255, 255, 255, .15);
+
     color: white;
 
     backdrop-filter: blur(10px);
+}
 
+.hero-info:hover {
+    background: rgba(255, 255, 255, .25);
+    transform: translateY(-2px);
 }
 
 .mobile-video {
@@ -473,118 +480,6 @@ header {
     font-size: 2.5rem;
 }
 
-/* ANIMES */
-
-.animes {
-    width: 100%;
-
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-    gap: 30px;
-
-    margin-top: 40px;
-    padding: 20px;
-}
-
-/* CARD */
-
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    gap: 15px;
-
-    filter: brightness(80%);
-    transition: 0.5s ease;
-}
-
-.card:hover {
-    transform: scale(1.05);
-
-    filter:
-        brightness(100%) drop-shadow(0 0 0.75rem rgb(100, 100, 100));
-}
-
-.card img {
-    width: 280px;
-    height: 400px;
-
-    border-radius: 8px;
-}
-
-.card button {
-    width: 140px;
-    height: 35px;
-
-    border: none;
-    border-radius: 5px;
-
-    background-color: red;
-    color: white;
-
-    font-size: 1rem;
-
-    cursor: pointer;
-}
-
-/* MINI ANIMES */
-
-.minianimes {
-    width: 100%;
-
-    margin-top: 60px;
-}
-
-.minianimes h1 {
-    text-align: center;
-
-    font-size: 40px;
-
-    margin-bottom: 30px;
-}
-
-/* SUB ANIMES */
-
-.subanimes {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-    gap: 20px;
-
-    padding: 20px;
-}
-
-/* MINI CARDS */
-
-.minicards {
-    transition: 0.5s ease;
-}
-
-.minicards:hover {
-    transform: scale(1.05);
-
-    filter: drop-shadow(0 0 0.75rem rgb(100, 100, 100));
-}
-
-.minicards img {
-    width: 180px;
-    height: 300px;
-
-    border-radius: 8px;
-
-    filter: brightness(80%);
-    transition: 0.5s ease;
-}
-
-.minicards img:hover {
-    filter: brightness(100%);
-}
-
-/* SOBRE */
 
 .sobre {
     width: min(90%, 1100px);
@@ -945,51 +840,6 @@ header {
 
     transition: opacity 0.4s ease;
 }
-
-.som-btn {
-    position: absolute;
-
-    top: 12px;
-    right: 12px;
-
-    width: 42px;
-    height: 42px;
-
-    border: none;
-    border-radius: 50%;
-
-    background: rgba(0, 0, 0, 0.7);
-
-    color: white;
-
-    font-size: 18px;
-
-    cursor: pointer;
-
-    z-index: 20;
-
-    opacity: 0;
-
-    transition: 0.3s ease;
-}
-
-.preview {
-    position: absolute;
-    inset: 0;
-
-    width: 100%;
-    height: 100%;
-
-    object-fit: cover;
-
-    z-index: 2;
-
-    opacity: 0;
-    transition: 0.4s ease;
-}
-
-
-
 .overlay {
     position: absolute;
     inset: 0;
@@ -1016,9 +866,6 @@ header {
     opacity: 1;
 }
 
-.dubcard:hover .preview {
-    opacity: 1;
-}
 
 
 
@@ -1102,10 +949,6 @@ header {
         align-items: center;
 
         padding: 15px 25px;
-    }
-
-    .desktop-video {
-        display: none
     }
 
     .mobile-video {
@@ -1232,47 +1075,8 @@ header {
         padding: 15px;
     }
 
-
-
-
-    .preview-container {
-        position: absolute;
-        inset: 0;
-        opacity: 0;
-        transition: 0.4s ease;
-        z-index: 2;
-    }
-
-    .preview-vimeo {
-        position: absolute;
-        inset: 0;
-
-        width: 100%;
-        height: 100%;
-
-        border: none;
-
-        object-fit: cover;
-
-        opacity: 0;
-        transition: .3s;
-        pointer-events: none;
-    }
-
-    .dubcard:hover .preview-vimeo {
-        opacity: 1;
-    }
-
-    .dubcard:hover .preview-container {
-        opacity: 1;
-    }
-
     .dubcard:hover img {
         opacity: 0;
-    }
-
-    .desktop-video {
-        display: none;
     }
 
     .mobile-video {
@@ -1289,15 +1093,6 @@ header {
         text-align: left;
     }
 
-    .animes {
-        gap: 20px;
-    }
-
-    .card img {
-        width: 200px;
-        height: 280px;
-    }
-
     .seta-direita {
         display: none;
     }
@@ -1310,38 +1105,12 @@ header {
         display: none;
     }
 
-    .card button {
-        width: 120px;
-        height: 32px;
-
-        font-size: 0.9rem;
-    }
-
-    .minianimes h1 {
-        font-size: 30px;
-    }
-
-    .subanimes {
-        gap: 15px;
-    }
-
     .classicos-desktop {
         display: none;
     }
 
     .classicos-mobile {
         display: inline;
-    }
-
-    .minianimes h1 {
-        text-align: left;
-        margin-left: 20px;
-    }
-
-    .minianimes h1 {
-        width: 100%;
-        text-align: left;
-        padding-left: 20px;
     }
 
     .sobre {
