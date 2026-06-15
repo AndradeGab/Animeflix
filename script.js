@@ -17,7 +17,12 @@ const modalDescricao = document.getElementById("modalDescricao");
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    document.body.classList.add("sem-scroll");
+    const entrada = document.getElementById("entrada");
+    const entrar = document.getElementById("entrar");
+
+    if (entrada && entrar) {
+        document.body.classList.add("sem-scroll");
+    }
 
     iniciarTelaEntrada();
     criarCards();
