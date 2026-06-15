@@ -256,10 +256,14 @@ function iniciarTelaEntrada() {
     if (localStorage.getItem("jaEntrou") === "true") {
         entrada.style.display = "none";
 
-        document.body.classList.remove("sem-scroll");
+        document.body.style.overflow = "auto";
+
+        return;
+    
     }
 
     entrar.addEventListener("click", () => {
+
         localStorage.setItem("jaEntrou", "true");
 
         entrada.classList.add("sumir");
@@ -268,6 +272,7 @@ function iniciarTelaEntrada() {
 
         setTimeout(() => {
             entrada.style.display = "none";
+            document.body.style.overflow = "auto";
         }, 1000);
 
     });
