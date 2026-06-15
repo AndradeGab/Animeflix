@@ -205,8 +205,7 @@ const animes = {
         genero: "Ação, Comédia",
         episodios: "Em lançamento",
         imagem: "dubimagens/Kill_Blue.webp",
-        video: "https://player.vimeo.com/video/1198055548?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198055548",
+        videoModal: "https://www.youtube.com/embed/IP_Qp9UgXiU?autoplay=1&rel=0",
         descricao: "Oogami Juzo é um assassino profissional mas volta a ser apenas um adolescente. Agora ele precisa encarar a vida acadêmica."
     },
 
@@ -216,8 +215,7 @@ const animes = {
         genero: "Ação, Comédia",
         episodios: "Em lançamento",
         imagem: "legimagens/Rooster_Fighter.webp",
-        video: "https://player.vimeo.com/video/1198057840?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198057840",
+        videoModal: "https://www.youtube.com/embed/w0yRxL4nFGI?autoplay=1&rel=0",
         descricao: "Keiji é um galo que luta para proteger sua cidade de ameaças sobrenaturais, enfrentando monstros em batalhas absurdas e cheias de humor."
     },
 
@@ -227,8 +225,7 @@ const animes = {
         genero: "Fantasia, Aventura",
         episodios: "Em lançamento",
         imagem: "legimagens/1178407.webp",
-        video: "https://player.vimeo.com/video/1198066126?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198066126",
+        videoModal: "https://www.youtube.com/embed/0befLWuxIuk?autoplay=1&rel=0",
         descricao: "Coco é uma garota comum que sonha em se tornar bruxa e acaba descobrindo segredos que mudarão sua vida para sempre."
     },
 
@@ -238,8 +235,7 @@ const animes = {
         genero: "Drama, Arte",
         episodios: "Em lançamento",
         imagem: "legimagens/filters_quality(95)format(webp).webp",
-        video: "https://player.vimeo.com/video/1198066818?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198066818",
+        videoModal: "https://www.youtube.com/embed/yZxy7JKQhg0?autoplay=1&rel=0",
         descricao: "Akane Osaki busca se tornar uma mestre do Rakugo para honrar o nome de seu pai e provar seu valor diante da elite da arte."
     },
 
@@ -249,8 +245,7 @@ const animes = {
         genero: "Fantasia, Sobrenatural",
         episodios: "Em lançamento",
         imagem: "legimagens/daemons-of-the-shadow-realm-anime-announced-teaser-visual-v0-1fysjqt0h5bf1.webp",
-        video: "https://player.vimeo.com/video/1198067610?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198067610",
+        videoModal: "https://www.youtube.com/embed/6rwQvS853NY?autoplay=1&rel=0",
         descricao: "Yuru e Asa são irmãos destinados a governar seres sobrenaturais conhecidos como Daemons e acabam envolvidos em uma grande conspiração."
     },
 
@@ -260,8 +255,7 @@ const animes = {
         genero: "Fantasia, Romance",
         episodios: "Em lançamento",
         imagem: "legimagens/Agents_of_the_Four_Seasons_-_Dance_of_Spring.webp",
-        video: "https://player.vimeo.com/video/1198068443?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198068443",
+        videoModal: "https://www.youtube.com/embed/DAgG0w73UxE?autoplay=1&rel=0",
         descricao: "Hinagiku retorna após dez anos desaparecida para restaurar a Primavera e preservar o equilíbrio das estações."
     },
 
@@ -271,8 +265,7 @@ const animes = {
         genero: "Sobrenatural, Mistério",
         episodios: "Em lançamento",
         imagem: "legimagens/mao.webp",
-        video: "https://player.vimeo.com/video/1198068880?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198068880",
+        videoModal: "https://www.youtube.com/embed/ez71LgemwIA?autoplay=1&rel=0",
         descricao: "Nanoka viaja no tempo e conhece Mao, um exorcista amaldiçoado. Juntos investigam mistérios ligados ao sobrenatural."
     },
 
@@ -282,8 +275,7 @@ const animes = {
         genero: "Militar, Drama",
         episodios: "Em lançamento",
         imagem: "legimagens/nippon.webp",
-        video: "https://player.vimeo.com/video/1198069494?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198069494",
+        videoModal: "https://www.youtube.com/embed/5XoXvKWJd4w?autoplay=1&rel=0",
         descricao: "Em um Japão pós-apocalíptico dividido por conflitos, Aoteru Misumi busca reunificar a nação através de sua genialidade estratégica."
     },
 
@@ -293,8 +285,7 @@ const animes = {
         genero: "Suspense, Psicológico",
         episodios: "Em lançamento",
         imagem: "legimagens/SNOWBALL_EARTH.webp",
-        video: "https://player.vimeo.com/video/1198071110?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198071110",
+        videoModal: "https://www.youtube.com/embed/ABeeKghL2AM?autoplay=1&rel=0",
         descricao: "Após anos em sono profundo, Tetsuo retorna e encontra a Terra completamente congelada depois de uma invasão alienígena."
     },
 
@@ -304,8 +295,7 @@ const animes = {
         genero: "Ficção, Ação",
         episodios: "Em lançamento",
         imagem: "legimagens/liar game.jpg",
-        video: "https://player.vimeo.com/video/1198071570?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198071570",
+        videoModal: "https://www.youtube.com/embed/njrIXBjntZc?autoplay=1&rel=0",
         descricao: "Nao Kanzaki entra em um jogo mortal de mentiras e manipulação, contando apenas com a ajuda do ex-golpista Akiyama."
     },
 
@@ -315,8 +305,7 @@ const animes = {
         genero: "Ação, Sobrenatural",
         episodios: "Em lançamento",
         imagem: "legimagens/jujutsu kaisen 3.webp",
-        video: "https://player.vimeo.com/video/1198752769?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198752769",
+        videoModal: "https://www.youtube.com/embed/MPfZhgLiK6w?autoplay=1&rel=0",
         descricao: "A terceira temporada adapta o arco do Jogo do Abate, onde Yuji e seus aliados enfrentam uma batalha mortal criada por Kenjaku."
     },
 
@@ -326,8 +315,7 @@ const animes = {
         genero: "Aventura, Sci-Fi",
         episodios: "Em lançamento",
         imagem: "legimagens/Dr._Stone_Science_Future_Key_Visual_Part_3.webp",
-        video: "https://player.vimeo.com/video/1198074826?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198074826",
+        videoModal: "https://www.youtube.com/embed/JxaJXnWDAN8?autoplay=1&rel=0",
         descricao: "Senku continua sua missão de reconstruir a civilização usando a ciência para desvendar mistérios e avançar a humanidade."
     },
 
@@ -337,8 +325,7 @@ const animes = {
         genero: "Psicológico, Drama",
         episodios: "Em lançamento",
         imagem: "legimagens/ayanokoji.webp",
-        video: "https://player.vimeo.com/video/1198076263?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198076263",
+        videoModal: "https://www.youtube.com/embed/QtIvKG8q5iM?autoplay=1&rel=0",
         descricao: "Ayanokoji continua manipulando os bastidores da escola enquanto enfrenta novas disputas entre as classes."
     },
 
@@ -348,8 +335,7 @@ const animes = {
         genero: "Ação, Fantasia",
         episodios: "Em lançamento",
         imagem: "legimagens/dorohedoro.webp",
-        video: "https://player.vimeo.com/video/1198078803?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198078803",
+        videoModal: "https://www.youtube.com/embed/oQSz3MaA35E?autoplay=1&rel=0",
         descricao: "Caiman continua sua busca por respostas enquanto enfrenta feiticeiros em um mundo brutal e caótico."
     },
 
@@ -359,8 +345,7 @@ const animes = {
         genero: "Isekai, Fantasia",
         episodios: "Em lançamento",
         imagem: "legimagens/slime.webp",
-        video: "https://player.vimeo.com/video/1198081013?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198081013",
+        videoModal: "https://www.youtube.com/embed/wXKlTwGMUQQ?autoplay=1&rel=0",
         descricao: "Rimuru enfrenta intrigas políticas e novas ameaças enquanto fortalece a nação de Tempest."
     },
 
@@ -370,8 +355,7 @@ const animes = {
         genero: "Fantasia, Slice of Life",
         episodios: "Em lançamento",
         imagem: "legimagens/book.jpg",
-        video: "https://player.vimeo.com/video/1198081697?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198081697",
+        videoModal: "https://www.youtube.com/embed/7gpL3E5ezH4?autoplay=1&rel=0",
         descricao: "Myne continua sua jornada para espalhar livros em um mundo onde a leitura é um privilégio raro."
     },
 
@@ -381,8 +365,7 @@ const animes = {
         genero: "Fantasia, Ação",
         episodios: "12 eps",
         imagem: "legimagens/wistoria.jpg",
-        video: "https://player.vimeo.com/video/1198087014?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198087014",
+        videoModal: "https://www.youtube.com/embed/2vj_rWOLtKw?autoplay=1&rel=0",
         descricao: "Will Serfort desafia o mundo da magia usando apenas sua força física e habilidade com espadas."
     },
 
@@ -392,8 +375,7 @@ const animes = {
         genero: "Fantasia, Drama",
         episodios: "28 eps",
         imagem: "legimagens/frieren.webp",
-        video: "https://player.vimeo.com/video/1198087863?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198087863",
+        videoModal: "https://www.youtube.com/embed/kF4KuvjdHQg?autoplay=1&rel=0",
         descricao: "Após derrotar o Rei Demônio, Frieren inicia uma jornada para compreender melhor os humanos e o valor do tempo."
     },
 
@@ -403,9 +385,18 @@ const animes = {
         genero: "Esporte, Drama",
         episodios: "38 eps",
         imagem: "legimagens/BLUELOCK.webp",
-        video: "https://player.vimeo.com/video/1198089011?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198089011",
+        videoModal: "https://www.youtube.com/embed/RezlceK7wiM?autoplay=1&rel=0",
         descricao: "300 atacantes disputam um treinamento extremo para se tornar o artilheiro definitivo do futebol japonês."
+    },
+
+    "Re Zero Season 4": {
+        categoria: "legendados",
+        nota: "8.8",
+        genero: "Comédia, Isekai",
+        episodios: "19 eps",
+        imagem: "legimagens/rezero.webp",
+        videoModal: "https://www.youtube.com/embed/jVl4bY81iIs?autoplay=1&rel=0",
+        descricao: "Após a feroz batalha na cidade aquática de Priestella, Subaru e seus aliados saíram vitoriosos, mas o custo da batalha foi altíssimo.",
     },
     "Bleach": {
         categoria: "topAnimes",
@@ -413,8 +404,7 @@ const animes = {
         genero: "Ação, Shounen",
         episodios: "366 eps",
         imagem: "topimagens/bleach.webp",
-        video: "https://player.vimeo.com/video/1198411595?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198411595",
+        videoModal: "https://www.youtube.com/embed/Fge9qvlbFlo?autoplay=1&rel=0",
         descricao: "Bleach acompanha Ichigo Kurosaki, um estudante capaz de ver espíritos que se torna um Shinigami para proteger humanos e almas."
     },
 
@@ -424,8 +414,7 @@ const animes = {
         genero: "Romance, Drama",
         duracao: "107 min",
         imagem: "topimagens/yourname.webp",
-        video: "https://player.vimeo.com/video/1198415568?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198415568",
+        videoModal: "https://www.youtube.com/embed/soQXM3XVvIU?autoplay=1&rel=0",
         descricao: "Mitsuha e Taki passam a trocar de corpos misteriosamente, criando um laço que desafia o tempo e a distância."
     },
 
@@ -435,8 +424,7 @@ const animes = {
         genero: "Fantasia, Aventura",
         duracao: "125 min",
         imagem: "topimagens/chihiro.webp",
-        video: "https://player.vimeo.com/video/1198421069?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198421069",
+        videoModal: "https://www.youtube.com/embed/SgZI655GgHk?autoplay=1&rel=0",
         descricao: "Chihiro entra em um mundo espiritual e precisa encontrar uma forma de salvar seus pais."
     },
 
@@ -446,8 +434,7 @@ const animes = {
         genero: "Fantasia, Família",
         duracao: "86 min",
         imagem: "topimagens/Meu_Amigo_Totoro.webp",
-        video: "https://player.vimeo.com/video/1198422680?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198422680",
+        videoModal: "https://www.youtube.com/embed/Ww1QZo-UrmM?autoplay=1&rel=0",
         descricao: "Duas irmãs descobrem criaturas mágicas da floresta e fazem amizade com o gentil Totoro."
     },
 
@@ -457,8 +444,7 @@ const animes = {
         genero: "Ação, Sobrenatural",
         duracao: "100 min",
         imagem: "topimagens/Chainsaw-Man-The-Movie-Reze-Arc-JG01_FIN-copy.jpg",
-        video: "https://player.vimeo.com/video/1198426070?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198426070",
+        videoModal: "https://www.youtube.com/embed/4CP8zxNVID8?autoplay=1&rel=0",
         descricao: "Denji conhece Reze, mas o romance rapidamente se transforma em uma batalha mortal."
     },
 
@@ -468,8 +454,7 @@ const animes = {
         genero: "Ação, Sobrenatural",
         duracao: "105 min",
         imagem: "topimagens/jujutsu 0.webp",
-        video: "https://player.vimeo.com/video/1198748130?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198748130",
+        videoModal: "https://www.youtube.com/embed/359noIH-wNo?autoplay=1&rel=0",
         descricao: "Yuta Okkotsu entra para a Escola Jujutsu enquanto tenta controlar a poderosa maldição de Rika."
     },
 
@@ -479,8 +464,7 @@ const animes = {
         genero: "Ação, Shounen",
         duracao: "100 min",
         imagem: "topimagens/dragon ball super broly.webp",
-        video: "https://player.vimeo.com/video/1198430882?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198430882",
+        videoModal: "https://www.youtube.com/embed/j_GK-hYXga0?autoplay=1&rel=0",
         descricao: "Goku e Vegeta enfrentam Broly, um Saiyajin de poder assustador."
     },
 
@@ -490,8 +474,7 @@ const animes = {
         genero: "Drama, Romance",
         duracao: "130 min",
         imagem: "topimagens/2068130.jpg",
-        video: "https://player.vimeo.com/video/1198432040?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198432040",
+        videoModal: "https://www.youtube.com/embed/nfK6UgLra7g?autoplay=1&rel=0",
         descricao: "Um jovem busca redenção pelos erros que cometeu contra uma colega surda."
     },
 
@@ -501,8 +484,7 @@ const animes = {
         genero: "Fantasia, Aventura",
         duracao: "134 min",
         imagem: "topimagens/princesa.webp",
-        video: "https://player.vimeo.com/video/1198750230?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198750230",
+        videoModal: "https://www.youtube.com/embed/I1dHzoRl0sQ?autoplay=1&rel=0",
         descricao: "Ashitaka fica preso em uma guerra entre humanos e espíritos da natureza."
     },
 
@@ -512,8 +494,7 @@ const animes = {
         genero: "Ação, Comédia",
         duracao: "100 min",
         imagem: "topimagens/Dragon_Ball_Super-_Super_Hero.webp",
-        video: "https://player.vimeo.com/video/1198434589?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198434589",
+        videoModal: "https://www.youtube.com/embed/HNY3rlgfxvA?autoplay=1&rel=0",
         descricao: "Piccolo e Gohan enfrentam uma nova ameaça criada pelo Exército Red Ribbon."
     },
 
@@ -523,8 +504,7 @@ const animes = {
         genero: "Romance, Ação",
         duracao: "112 min",
         imagem: "topimagens/The_Last_Naruto_the_Movie.webp",
-        video: "https://player.vimeo.com/video/1198435928?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198435928",
+        videoModal: "https://www.youtube.com/embed/YEc3m3tGYcY?autoplay=1&rel=0",
         descricao: "Naruto precisa impedir a destruição da Terra enquanto descobre seus sentimentos por Hinata."
     },
 
@@ -534,8 +514,7 @@ const animes = {
         genero: "Drama, Romance",
         episodios: "22 eps",
         imagem: "topimagens/your-lie-in-april.webp",
-        video: "https://player.vimeo.com/video/1198438439?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198438439",
+        videoModal: "https://www.youtube.com/embed/3aL0gDZtFbE?autoplay=1&rel=0",
         descricao: "Kousei Arima perde a capacidade de ouvir sua própria música após a morte da mãe, mas sua vida muda ao conhecer a violinista Kaori Miyazono."
     },
 
@@ -545,8 +524,7 @@ const animes = {
         genero: "Drama, Sobrenatural",
         episodios: "13 eps",
         imagem: "topimagens/angel.webp",
-        video: "https://player.vimeo.com/video/1198441394?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198441394",
+        videoModal: "https://www.youtube.com/embed/Eksw56g-WBY?autoplay=1&rel=0",
         descricao: "Otonashi desperta em uma escola no pós-vida e descobre um mundo onde jovens lidam com arrependimentos e traumas."
     },
 
@@ -556,8 +534,7 @@ const animes = {
         genero: "Drama, Slice of Life",
         episodios: "11 eps",
         imagem: "topimagens/anohana.webp",
-        video: "https://player.vimeo.com/video/1198439712?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198439712",
+        videoModal: "https://www.youtube.com/embed/LFJwcFUfpZs?autoplay=1&rel=0",
         descricao: "Anos após a morte de Menma, seus antigos amigos precisam enfrentar o passado e realizar seu desejo esquecido."
     },
 
@@ -567,8 +544,7 @@ const animes = {
         genero: "Drama, Fantasia",
         episodios: "13 eps",
         imagem: "topimagens/violet.webp",
-        video: "https://player.vimeo.com/video/1198442967?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198442967",
+        videoModal: "https://www.youtube.com/embed/4OPXxbOPOlI?autoplay=1&rel=0",
         descricao: "Uma ex-soldado busca compreender o significado das palavras 'eu te amo' enquanto escreve cartas para outras pessoas."
     },
 
@@ -578,8 +554,7 @@ const animes = {
         genero: "Drama, Romance",
         episodios: "47 eps",
         imagem: "topimagens/clannad.webp",
-        video: "https://player.vimeo.com/video/1198444266?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198444266",
+        videoModal: "https://www.youtube.com/embed/IecYMqp1N4k?autoplay=1&rel=0",
         descricao: "Tomoya encontra novos motivos para viver ao conhecer Nagisa e construir laços que mudarão sua vida."
     },
 
@@ -589,8 +564,7 @@ const animes = {
         genero: "Ação, Drama",
         episodios: "10 eps",
         imagem: "topimagens/Cyberpunk_mercenarios.webp",
-        video: "https://player.vimeo.com/video/1198445859?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198445859",
+        videoModal: "https://www.youtube.com/embed/0HL_x-RzMQA?autoplay=1&rel=0",
         descricao: "David Martinez tenta sobreviver em Night City enquanto persegue sonhos cada vez mais perigosos."
     },
 
@@ -600,8 +574,7 @@ const animes = {
         genero: "Drama, Romance",
         episodios: "13 eps",
         imagem: "topimagens/plastic.webp",
-        video: "https://player.vimeo.com/video/1198743345?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198743345",
+        videoModal: "https://www.youtube.com/embed/vk6mg74R5Ek?autoplay=1&rel=0",
         descricao: "Tsukasa trabalha recuperando androides prestes a perder suas memórias e conhece a gentil Giftia Isla."
     },
 
@@ -612,8 +585,7 @@ const animes = {
         episodios: "Filme",
         duracao: "89 minutos",
         imagem: "topimagens/vagalumes.webp",
-        video: "https://player.vimeo.com/video/1198744687?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198744687",
+        videoModal: "https://www.youtube.com/embed/NAKlDJmwq-g?autoplay=1&rel=0",
         descricao: "Dois irmãos lutam para sobreviver durante os últimos meses da Segunda Guerra Mundial no Japão."
     },
 
@@ -624,8 +596,7 @@ const animes = {
         episodios: "Filme",
         duracao: "108 minutos",
         imagem: "topimagens/pancreas.webp",
-        video: "https://player.vimeo.com/video/1198747000?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198747000",
+        videoModal: "https://www.youtube.com/embed/eUJrJPOKCHs?autoplay=1&rel=0",
         descricao: "Um estudante introvertido descobre o segredo de uma colega com uma doença terminal e passa a acompanhá-la."
     },
 
@@ -635,8 +606,7 @@ const animes = {
         genero: "Drama, Romance",
         episodios: "13 eps",
         imagem: "topimagens/Orange.webp",
-        video: "https://player.vimeo.com/video/1198751303?muted=1&loop=1&background=1",
-        videoModal: "https://player.vimeo.com/video/1198751303",
+        videoModal: "https://www.youtube.com/embed/kVDqRG0qbBs?autoplay=1&rel=0",
         descricao: "Naho recebe cartas vindas do futuro tentando impedir uma tragédia envolvendo seu colega Kakeru."
     }
 

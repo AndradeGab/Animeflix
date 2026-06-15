@@ -988,13 +988,7 @@ header {
     transition: 0.4s ease;
 }
 
-.dubcard:hover img {
-    opacity: 0;
-}
 
-.dubcard:hover .preview-container {
-    opacity: 1;
-}
 
 .overlay {
     position: absolute;
