@@ -908,19 +908,28 @@ header {
 
 .seta {
     position: absolute;
-    z-index: 1000;
-    width: 50px;
-    height: 50px;
+
+    top: 0;
+    height: 100%;
+
+    width: 90px;
+
     border: none;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0;
+
+    background: transparent;
+
     color: white;
-    font-size: 30px;
-    cursor: pointer;
+    font-size: 40px;
+
     display: flex;
-    justify-content: center;
     align-items: center;
-    transition: 0.3s ease;
+    justify-content: center;
+
+    cursor: pointer;
+    z-index: 100;
+
+    transition: .3s ease;
 }
 
 .seta:hover {
@@ -929,15 +938,27 @@ header {
 }
 
 .esquerda {
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
+    left: 0;
+}
+
+.esquerda:hover {
+    background: linear-gradient(
+        to right,
+        rgba(229, 9, 20, .35),
+        transparent
+    );
 }
 
 .direita {
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
+    right: 0;
+}
+
+.direita:hover {
+    background: linear-gradient(
+        to left,
+        rgba(229, 9, 20, .35),
+        transparent
+    );
 }
 
 /* MOBILE */
