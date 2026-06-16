@@ -910,17 +910,15 @@ header {
     position: absolute;
 
     top: 0;
-    height: 100%;
+    height: 380px;
 
-    width: 90px;
+    width: 100px;
 
     border: none;
     border-radius: 0;
 
-    background: transparent;
-
     color: white;
-    font-size: 40px;
+    font-size: 70px;
 
     display: flex;
     align-items: center;
@@ -929,36 +927,66 @@ header {
     cursor: pointer;
     z-index: 100;
 
-    transition: .3s ease;
+    transition: all 1s ease;
 }
 
-.seta:hover {
-    background-color: red;
-    transform: scale(1.1);
+.seta::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    opacity: 0;
+
+    transition: opacity .4s ease;
+
+    z-index: -1;
 }
+
+.esquerda::before {
+    background: linear-gradient(to right,
+            rgba(122, 0, 0, 0.6),
+            transparent);
+}
+
+.direita::before {
+    background: linear-gradient(to left,
+            rgba(122, 0, 0, 0.6),
+            transparent);
+}
+
+.seta:hover::before {
+    opacity: 2;
+}
+
+
 
 .esquerda {
     left: 0;
+
+    background: linear-gradient(to right,
+            rgb(0, 0, 0),
+            transparent);
+
 }
 
 .esquerda:hover {
-    background: linear-gradient(
-        to right,
-        rgba(229, 9, 20, .35),
-        transparent
-    );
+    background: linear-gradient(to right,
+            rgba(124, 0, 6, 0.847),
+            transparent);
 }
 
 .direita {
     right: 0;
+
+    background: linear-gradient(to left,
+            rgb(0, 0, 0),
+            transparent);
 }
 
 .direita:hover {
-    background: linear-gradient(
-        to left,
-        rgba(229, 9, 20, .35),
-        transparent
-    );
+    background: linear-gradient(to left,
+            rgba(124, 0, 6, 0.847),
+            transparent);
 }
 
 /* MOBILE */
